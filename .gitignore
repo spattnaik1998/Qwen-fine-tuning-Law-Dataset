@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# Model files (too large for git)
+# Note: Model files are tracked via Git LFS or should be downloaded separately
+*.safetensors
+*.bin
+*.pth
+*.pt
+optimizer.pt
+scheduler.pt
+rng_state.pth
+training_args.bin
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
